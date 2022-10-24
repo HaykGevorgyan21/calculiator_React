@@ -1,0 +1,102 @@
+body{
+  background-color: #1B2B34;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.calculiator_bar{
+  border: 1px solid;
+  width: 260px;
+  background-color: black;
+  /* border-radius: 16px; */
+  margin: auto;
+  margin-top: 99px;
+  height: 454px;
+  /* border: 3px solid silver; */
+  
+  
+}
+.Resultat{
+  background-color: black;
+  height: 135px;
+  color: white;
+  text-align: end;
+  padding-top: 50px;
+  font-size: 28px;
+  font-weight: bold;
+  font-family: sans-serif;
+  border-radius: 16px;
+}
+.Resultat > span{
+ color: white;
+}
+.keydata{
+
+}
+.element{
+  width: 50px;
+height: 50px;
+border-radius: 100%;
+background-color: rgb(48, 47, 47);
+display: inline-block;
+margin: 5px;
+color: white;
+text-align:center;
+justify-content: center;
+align-items: center;
+font-size: 22px;
+font-weight: bold;
+font-family: sans-serif;
+cursor: pointer;
+}
+.element:nth-child(1){
+  background-color: silver;
+  color: black;
+}
+.element:nth-child(2){
+  background-color: silver;
+  color: black;
+}
+.element:nth-child(3){
+  background-color: silver;
+  color: black;
+}
+.element:nth-child(4){
+  background-color: orange;
+  color: white;
+}
+.element:nth-child(8){
+  background-color: orange;
+  color: white;
+}
+.element:nth-child(12){
+  background-color: orange;
+  color: white;
+}
+.element:nth-child(16){
+  background-color: orange;
+  color: white;
+}
+.element:nth-child(19){
+  background-color: orange;
+  color: white;
+}
+.element:nth-child(17){
+ width: 107px;
+ border-radius: 32px;
+}
+
+.iphone{
+  background-image: url(/public/iPhone-6s-Rose-Gold.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 345px;
+  height: 640px;
+  margin-left: 35%;
+  margin-top: 0px;
+  position: absolute;
+}
